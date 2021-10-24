@@ -88,6 +88,7 @@ for (let xNumber = 0; xNumber < passwordText.length; xNumber++) {
 console.log("Password Encrypted");
 console.log("------------------");
 console.log(passwordEncrypted);
+document.querySelector('.text').textContent = passwordEncrypted;
 
 for (let i = 0; i < passwordEncrypted.length; i++) {
   if (charactersList.includes(passwordEncrypted[i]) == false) {
